@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\JWT\\JWT\\JWT\\JWT.csproj": {}
+    "E:\\Github\\JWT\\Token\\JWT\\JWT.csproj": {}
   },
   "projects": {
-    "E:\\Github\\JWT\\JWT\\JWT\\JWT.csproj": {
+    "E:\\Github\\JWT\\Token\\JWT\\JWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\JWT\\JWT\\JWT\\JWT.csproj",
+        "projectUniqueName": "E:\\Github\\JWT\\Token\\JWT\\JWT.csproj",
         "projectName": "JWT",
-        "projectPath": "E:\\Github\\JWT\\JWT\\JWT\\JWT.csproj",
+        "projectPath": "E:\\Github\\JWT\\Token\\JWT\\JWT.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\JWT\\JWT\\JWT\\obj\\",
+        "outputPath": "E:\\Github\\JWT\\Token\\JWT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
