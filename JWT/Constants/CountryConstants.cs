@@ -10,5 +10,12 @@ namespace JWT.Constants
             new CountryModel () { name = "Argentina" },
             new CountryModel () { name = "Mexico" },
         };
+
+
+        public void crear(string nombre)
+        {
+            Countrys.Add(new CountryModel() { name = nombre });
+
+        }
     }
 }

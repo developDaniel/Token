@@ -1,7 +1,4 @@
 {
-  "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5001"
-  },
   "Routes": [
     // Web API Employee
     {
@@ -54,5 +51,8 @@
       "DownstreamPathTemplate": "/api/Country/{nombreciudad}"
     }
 
-  ]
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl" :  "http://localhost:800"
+  }
 }

@@ -14,5 +14,13 @@ namespace JWT.Controllers
             var listcountry = CountryConstants.Countrys;
             return Ok(listcountry);
         }
+
+        [HttpGet("{pais}")]
+        public IActionResult BuscarUsuario(string nombreciudad)
+        {
+            var ciudad = CountryConstants.Countrys.FirstOrDefault(x => x.name == nombreciudad);
+
+            return Ok(ciudad);
+        }
     }
 }

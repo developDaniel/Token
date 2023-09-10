@@ -1,4 +1,5 @@
 ﻿using JWT.Constants;
+using JWT.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,5 +16,15 @@ namespace JWT.Controllers
             return Ok(lista);
 
         }
+
+
+        [HttpGet("{nombre}")]        
+        public IActionResult BuscarUsuario(string nombre )
+        {
+            var usuarios = EmployeeConstants.GetEmployees.FirstOrDefault(x => x.FirstName == nombre);                       
+
+            return Ok(usuarios);
+        }
+
     }
 }
